@@ -2,11 +2,15 @@
 Next Level Week 1.0 - Rocketseat - Projeto: Ecoleta
 
 # Sobre o Projeto 
-O Projeto Ecoleta na versão WEB, realizar um cadastro de pontos de coleta do residuou através do site. Para realizar o cadastro do ponto de coleta, primeiramente faz o upload de imagem do estalecimento, seleciona um ponto de coleta clicando no mapa e por fim concluir com os dados de ponto do estabelecimento.
-
-
-O Projeto também foi desenvolvido na versão MOBILE (IOS e Android). A versão mobile filtrar os pontos de coleta por estado,cidade. Nos itens coletados e possivel selecionar mas de um item para obter detalhes sobre um ponto específico, ver endereço do estabelecimento e entrar em contato através de whatsapp ou e-mail.
-
+O projeto foi desenvolvido para  conectar empresas e entidades de coleta  de resídous orgânic e inorgânicos as pessoas que precisam destacar seus resídous  de forma ecológica. 
+A plataforma desenvolvida e simples de se manuseada e a pode  esta usando na versao Web e Mobile (IOS e Android).
+As empresas poderão se cadastrar usando:
+  Uma imagem do ponto de coleta.
+  Nome da entidade, email e whatsapp
+  Preenchendo o endereço e dando um clique no mapa (o mapa já mostrar automaticamente a posição atual caso seu gps esteja ativo na versão mobile)
+  É possivél seleciona umou mais ítens de coleta:
+  lâmpadas, pilhas e baterias, papéis e papelão, papéis e papelão, resídous eletrônicos, resídous orgânicos e óleo de cozinha.
+  
 # Tecnologias Utilizadas 
 
   * Typescript 
