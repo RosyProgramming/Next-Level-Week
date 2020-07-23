@@ -12,7 +12,7 @@ O projeto foi desenvolvido para  conectar empresas e entidades de coleta  de res
 
 A plataforma desenvolvida e simples de se manuseada e a pode  esta usando na versao Web e Mobile (IOS e Android).
 
-#### As empresas poderão se cadastrar usando:
+#### As empresas poderão se cadastrar usando: :office:
    
   * Uma imagem do ponto de coleta.
    
