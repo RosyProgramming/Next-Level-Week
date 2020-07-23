@@ -47,7 +47,9 @@ A plataforma desenvolvida e simples de se manuseada e a pode  esta usando na ver
 
 > Abrir no Visual Studio Code
 `$ code .`
-#### Em seu terminal como **administrador**.
+
+
+> Em seu terminal como **administrador**.
 
 # Instalar API
 
@@ -65,7 +67,8 @@ A plataforma desenvolvida e simples de se manuseada e a pode  esta usando na ver
 
 > Depois é preciso dar um start no server 
 `$ npm run dev`
-#### running on port 3333
+
+> running on port 3333
 
 
 # Instalar o Front-end
@@ -73,11 +76,13 @@ A plataforma desenvolvida e simples de se manuseada e a pode  esta usando na ver
 > Navegue até o diretório
 `$ cd next-level-week/web`
 
-/*Instale as dependências necessarias*/
-$ npm install
+> Instale as dependências necessarias
+`$ npm install `
 
 > Execute
 `$ npm start `
+
+
 > running on port 3000
 
 # Instalar o Mobile
@@ -90,6 +95,8 @@ $ npm install
 
 > Execute o seguinte comando
 `$ expo start`
+
+
 > Instale o expo em seu dispositivo móvel ou no emulador.
 
   
