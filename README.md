@@ -1,4 +1,4 @@
-# Next-Level-Week
+# Next-Level-Week :rocket:
 Next Level Week 1.0 - Rocketseat - Projeto: Ecoleta
 
 # O que é a Next Level Week? 
@@ -37,58 +37,59 @@ A plataforma desenvolvida e simples de se manuseada e a pode  esta usando na ver
   
 # 📍 Pré-requisitos
 
-Instale o Git e o Node.Js no seu computador.
+> Instale o Git e o Node.Js no seu computador.
 
-/*Clonar esse repositório*/  
-$ git clone https://github.com/RosyProgramming/Next-Level-Week.git
+> Clonar esse repositório 
+` $ git clone https://github.com/RosyProgramming/Next-Level-Week.git `
 
-/*Navegue até o diretório*/
-$ cd next-level-week
+> Navegue até o diretório
+`$ cd next-level-week`
 
-/*Abrir no Visual Studio Code*/
-$ code .
-> Em seu terminal como **administrador**.
+> Abrir no Visual Studio Code
+`$ code .`
+#### Em seu terminal como **administrador**.
 
 # Instalar API
 
-/*Navegue até o diretório*/
-$ cd next-level-week/server
+> Navegue até o diretório
+`$ cd next-level-week/server `
 
-/*Instale as dependencias necessárias*/
-$ npm install
+> Instale as dependencias necessárias
+`$ npm install `
 
-/*Execute o comando para rodar as Migrates*/
-$ npm run knex:migrate
+> Execute o comando para rodar as Migrates
+`$ npm run knex:migrate `
 
-/*Execute o comando para rodar os Seeds*/
-$ npm run knex:seed
+> Execute o comando para rodar os Seeds
+`$ npm run knex:seed `
 
-/*Depois é preciso dar um start no server*/
-$ npm run dev
-> running on port 3333
+> Depois é preciso dar um start no server 
+`$ npm run dev`
+#### running on port 3333
 
 
 # Instalar o Front-end
 
-/*Navegue até o diretório*/
-$ cd next-level-week/web
+> Navegue até o diretório
+`$ cd next-level-week/web`
 
 /*Instale as dependências necessarias*/
 $ npm install
 
-/*Execute*/
-$ npm start
+> Execute
+`$ npm start `
 > running on port 3000
 
 # Instalar o Mobile
-/*Navegue até o diretório*/
-$ cd next-level-week/mobile
 
-/*Instale as dependências*/
-$ npm install
+> Navegue até o diretório
+`$ cd next-level-week/mobile`
 
-/*Execute o seguinte comando*/
-$ expo start
+> Instale as dependências
+`$ npm install `
+
+> Execute o seguinte comando
+`$ expo start`
 > Instale o expo em seu dispositivo móvel ou no emulador.
 
   
