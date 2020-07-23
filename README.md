@@ -27,61 +27,61 @@ As empresas poderão se cadastrar usando:
   * Expo
   * React Native Maps
   
-# 📍 Como usa
+# 📍 Como executar o projeto?
+
 Instale o Git e o Node.Js no seu computador.
-# Clonar esse repositório
+
+#### Clonar esse repositório 
 $ git clone https://github.com/RosyProgramming/Next-Level-Week.git
 
-# Navegue até o diretório
+#### Navegue até o diretório
 $ cd next-level-week
 
-# Abrir no Visual Studio Code
+### Abrir no Visual Studio Code
 $ code .
 Em seu terminal como administrador.
 
 # Instalar API
 
-# Navegue até o diretório
+### Navegue até o diretório
 $ cd next-level-week/server
 
-# Instale as dependencias necessárias
+### Instale as dependencias necessárias
 $ npm install
 
-# Execute o comando para rodar as Migrates
+### Execute o comando para rodar as Migrates
 $ npm run knex:migrate
 
-# Execute o comando para rodar os Seeds
+### Execute o comando para rodar os Seeds
 $ npm run knex:seed
 
-# Depois é preciso dar um start no server
+### Depois é preciso dar um start no server
 $ npm run dev
-
-# running on port 3333
+### running on port 3333
 
 
 # Instalar o Front-end
 
-# Navegue até o diretório
+### Navegue até o diretório
 $ cd next-level-week/web
 
-# Instale as dependências necessarias
+### Instale as dependências necessarias
 $ npm install
 
-# Rode
+### Execute
 $ npm start
+running on port 3000
 
-# running on port 3000
-
-# nstalar o Mobile
-# Navegue até o diretório
+# Instalar o Mobile
+Navegue até o diretório
 $ cd next-level-week/mobile
 
-# Instale as dependências
+### Instale as dependências
 $ npm install
 
-# Rode
+### Execute o seguinte comando:
 $ expo start
-# Instale o expo em seu dispositivo móvel ou no emulador
+#### Instale o expo em seu dispositivo móvel ou no emulador.
 
   
   
