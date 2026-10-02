@@ -1,105 +1,97 @@
-# Next-Level-Week :rocket:
-Next Level Week 1.0 - Rocketseat - Projeto: Ecoleta
+# ♻️ Ecoleta – Next Level Week 1.0
 
-# O que é a Next Level Week? :interrobang:
+Project developed during **Next Level Week 1.0**, by [Rocketseat](https://rocketseat.com.br/).
 
-Um evento online e totalmente gratuito! Uma semana prática com muito código, desafios, networking com o único objetivo de nos levar para o próximo nível como desenvolvedor.
+## ❓ What is Next Level Week?
 
-O método da rocketseat é baseado em 3 pilares: Prática diárias das tecnologias, Foco total no aprendizado e na construção da aplicação, interações em Grupo na comunidade da Rocketseat.
+A completely free online event: a hands-on week full of code, challenges, and networking, with the sole goal of taking us to the next level as developers.
 
-# Sobre o Projeto :memo:
-O projeto foi desenvolvido para  conectar empresas e entidades de coleta  de resídous orgânic e inorgânicos as pessoas que precisam destacar seus resídous  de forma ecológica.
+Rocketseat's method is based on three pillars:
 
-A plataforma desenvolvida e simples de se manuseada e a pode  esta usando na versao Web e Mobile (IOS e Android).
+* Daily practice with the technologies
+* Total focus on learning and building the application
+* Group interactions within the Rocketseat community
 
-#### As empresas poderão se cadastrar usando: :office:
-   
-  * Uma imagem do ponto de coleta.
-   
-  * Nome da entidade, email e whatsapp.
-  
-  * Preenchendo o endereço e dando um clique no mapa (o mapa já mostrar automaticamente a posição atual caso seu gps esteja ativo na versão mobile).
-  
+## 📝 About the Project
 
-#### É possivél seleciona um ou mais ítens de coleta: :recycle:
-  
-  * lâmpadas, pilhas e baterias, papéis e papelão, papéis e papelão, resídous eletrônicos, resídous orgânicos e óleo de cozinha
-  
-# Tecnologias Utilizadas :computer:
-  Esse projeto foi desenvolvido com algumas tecnologias:
-  * [Typescript](https://www.typescriptlang.org/)
-  * [NodeJS](https://nodejs.org/en/)
-  * [ReactJS](https://reactjs.org/)
-  * [ReactDropzone](https://react-dropzone.js.org/) 
-  * [ReactNative](https://reactnative.dev/)
-  * [Expo](https://expo.io/)
-  * [React Native Maps](https://www.npmjs.com/package/react-native-maps)
-  
-# Pré-requisitos :heavy_check_mark:
+**Ecoleta** connects companies and organizations that collect organic and inorganic waste with people who need to dispose of their waste in an eco-friendly way.
 
-> Instale o Git e o Node.Js no seu computador.
+The platform is simple to use and is available on **Web** and **Mobile** (iOS and Android).
 
-> Clonar esse repositório 
-` $ git clone https://github.com/RosyProgramming/Next-Level-Week.git `
+### 🏢 Registering a collection point
 
-> Navegue até o diretório
-`$ cd next-level-week`
+Companies can register by providing:
 
-> Abrir no Visual Studio Code
-`$ code .`
+* An image of the collection point
+* The organization's name, email, and WhatsApp
+* The address and a click on the map (on mobile, the map automatically shows your current position if GPS is enabled)
 
+### ♻️ Collection items
 
-> Em seu terminal como **administrador**.
+One or more items can be selected:
 
-# Instalar API
+* Light bulbs
+* Batteries
+* Paper and cardboard
+* Electronic waste
+* Organic waste
+* Cooking oil
 
-> Navegue até o diretório
-`$ cd next-level-week/server `
+## 💻 Technologies
 
-> Instale as dependencias necessárias
-`$ npm install `
+* [TypeScript](https://www.typescriptlang.org/)
+* [Node.js](https://nodejs.org/en/)
+* [ReactJS](https://reactjs.org/)
+* [React Dropzone](https://react-dropzone.js.org/)
+* [React Native](https://reactnative.dev/)
+* [Expo](https://expo.io/)
+* [React Native Maps](https://www.npmjs.com/package/react-native-maps)
 
-> Execute o comando para rodar as Migrates
-`$ npm run knex:migrate `
+## ✅ Prerequisites
 
-> Execute o comando para rodar os Seeds
-`$ npm run knex:seed `
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/en/)
 
-> Depois é preciso dar um start no server 
-`$ npm run dev`
+Clone the repository and open it in your editor:
 
-> running on port 3333
+```bash
+git clone https://github.com/RosyProgramming/Next-Level-Week.git
+cd Next-Level-Week
+code .
+```
 
+> Run the commands below in a terminal opened **as administrator**.
 
-# Instalar o Front-end
+## 🚀 How to Run
 
-> Navegue até o diretório
-`$ cd next-level-week/web`
+### API (server)
 
-> Instale as dependências necessarias
-`$ npm install `
+```bash
+cd server
+npm install
+npm run knex:migrate   # run the migrations
+npm run knex:seed      # run the seeds
+npm run dev            # start the server
+```
 
-> Execute
-`$ npm start `
+The API runs on port **3333**.
 
+### Front-end (web)
 
-> running on port 3000
+```bash
+cd web
+npm install
+npm start
+```
 
-# Instalar o Mobile
+The web app runs on port **3000**.
 
-> Navegue até o diretório
-`$ cd next-level-week/mobile`
+### Mobile
 
-> Instale as dependências
-`$ npm install `
+```bash
+cd mobile
+npm install
+expo start
+```
 
-> Execute o seguinte comando
-`$ expo start`
-
-
-> Instale o expo em seu dispositivo móvel ou no emulador.
-
-  
-  
-  
- 
+> Then install the **Expo** app on your mobile device, or use an emulator.
